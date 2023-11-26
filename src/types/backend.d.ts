@@ -5,3 +5,9 @@ interface IBlog {
     author: string;
     title: string;
 }
+
+interface IProduct {
+    id: number;
+    title: string;
+    url: string;
+}

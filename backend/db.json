@@ -30,5 +30,17 @@
       "author": "Eric",
       "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
     }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": "Apple iPhone 15 Pro Camera test - DXOMARK",
+      "url": "https://cdn.dxomark.com/wp-content/uploads/medias/post-157467/Apple-iPhone-15-Pro_-natural_featured-image-packshot-review-1024x691.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Apple iPhone 14 Pro Review - Forbes Vetted",
+      "url": "https://specials-images.forbesimg.com/imageserve/6321aca5df0a9fa9eee9950b/IMG-2758/960x0.jpg"
+    }
   ]
 }
