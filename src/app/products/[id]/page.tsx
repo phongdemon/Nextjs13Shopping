@@ -9,7 +9,7 @@ const ViewDetailProduct = ({ params }: { params: { id: string } }) => {
         .then((res) => res.json());
 
     const { data, error, isLoading } = useSWR(
-        `http://localhost:8000/product/${params.id}`,
+        `http://localhost:8000/products/${params.id}`,
         fetcher,
         {
             revalidateIfStale: false,

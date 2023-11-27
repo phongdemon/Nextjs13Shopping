@@ -21,6 +21,11 @@ const AppHeader = () => {
                             Blogs
                         </Link>
                     </Nav>
+                    <Nav className="me-auto">
+                        <Link href={"/products"} className='nav-link'>
+                            Products
+                        </Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

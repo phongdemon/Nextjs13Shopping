@@ -9,5 +9,5 @@ interface IBlog {
 interface IProduct {
     id: number;
     title: string;
-    url: string;
+    image: string;
 }
