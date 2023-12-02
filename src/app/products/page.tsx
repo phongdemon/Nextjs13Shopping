@@ -26,38 +26,16 @@ const ProductsPage = () => {
 
     return (
         <Row className='mt-5'>
-            {/* <AppTable
-                products={data?.sort((a: any, b: any) => b.id - a.id) ?? []}
-            /> */}
             {data.map((item: IProduct) => (
                 <Col
                     xs={12} md={4}
                 >
                     <Link
-                        href={`/${item.id}`}
-                        // className=" shadow-lg hover:shadow-xl"
-                        key={item.id}
-                    >
-                        <div className="">
-                            <Image
-                                src={item.image}
-                                width={400}
-                                height={400}
-                                alt={item.image}
-                                // className="h-full w-full object-cover hover:scale-105 transition-transform"
-                            />
-                        </div>
-                    </Link>
-                </Col>
-            ))}
-            {/* <section className="grid grid-cols-2 gap-3 my-8 w-[95vw] mx-auto">
-                {data.map((item: IProduct) => (
-                    <Link
-                        href={`/${item.id}`}
+                        href={`/products/${item.id}`}
                         className=" shadow-lg hover:shadow-xl"
                         key={item.id}
                     >
-                        <div className="md:h-[400px] max-md:aspect-square overflow-hidden">
+                        <div className="">
                             <Image
                                 src={item.image}
                                 width={400}
@@ -67,8 +45,8 @@ const ProductsPage = () => {
                             />
                         </div>
                     </Link>
-                ))}
-            </section> */}
+                </Col>
+            ))}
         </Row>
     )
 }
