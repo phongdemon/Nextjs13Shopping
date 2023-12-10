@@ -33,28 +33,92 @@
   ],
   "products": [
     {
-      "id": 1,
+      "id": "64c5dc0a0c06622dfd4f94d6",
       "title": "Mi TV",
-      "image":
-        "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935898/ecom/slider/mi-tv_xzbqid.webp"
+      "price": 14999000,
+      "discountPrice": 16999000,
+      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935898/ecom/slider/mi-tv_xzbqid.webp",
+      "images": [
+        "https://m.media-amazon.com/images/I/81EyqJpLLSL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71p0XOJ5k3L._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71offGIPFxL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/711a11I5-gL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/618nHS1HbCL._SX679_.jpg"
+      ],
+      "highlights": [
+        "Resolution: HD Ready (1366x768) | Refresh Rate: 60 hertz | 178 wide viewing angle",
+        "Sound: 20 Watts Output | Dolby Audio | DTS Virtual: X | DTS-HD",
+        "Display: Metal bezel-less Screen | Vivid Picture Engine",
+        "Connectivity: Dual Band Wi-Fi (2.4 GHz/ 5 GHz) | 2 HDMI ports to connect set top box, gaming consoles, DVD or Blu-ray Players | 2 USB ports to connect hard drives and other USB devices | ARC | Bluetooth 5.0 | Ethernet | 3.5mm earphone Jack",
+        "Warranty Information: 1 year comprehensive warranty on product and 1 year additional on Panel provided by the brand from the date of purchase"
+      ]
     },
     {
-      "id": 2,
+      "id": "64c5dfdb0c06622dfd4f94d8",
       "title": "Realme Watch",
-      "image":
-        "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935884/ecom/slider/realme-watch_vljtrt.webp"
+      "price": 4999000,
+      "discountPrice": 5999000,
+      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935884/ecom/slider/realme-watch_vljtrt.webp",
+      "images": [
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/c/q/1/-original-imaghrt5wrcbwqds.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/g/b/t/-original-imaghrt5qtgpbd62.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/3/a/3/-original-imaghrt5mcbk9y5q.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/p/t/y/-original-imaghrt5bfuraxgc.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/n/d/e/-original-imaghrt5gg5nhh8c.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/x/8/j/-original-imaghrt5gxpugvty.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/x/y/l/-original-imaghrt5tbq38hz4.jpeg?q=70"
+      ],
+      "highlights": [
+        "1.78 Smart AOD AMOLED Display with up to 500 nits screen brightness Touchscreen",
+        "110+ Sports Mode with Cywee Professional Sports Algorithm",
+        "Multi System Standalone GPS for Activity Tracking",
+        "IP68 Water and Dust Resistant| 100+ Watch Faces , Fitness & Outdoor",
+        "realme Link App for comprehensive health tracking - real-time Heart Rate, SpO2, Sleep & Stress monitoring",
+        "Battery Runtime: Upto 10 days"
+      ]
     },
     {
-      "id": 3,
+      "id": "64c5e1090c06622dfd4f94d9",
       "title": "Realme 11 Pro",
-      "image":
-        "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689936015/ecom/slider/realme-11-pro_s8oaq4.webp"
+      "price": 7999000,
+      "discountPrice": 9999000,
+      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689936015/ecom/slider/realme-11-pro_s8oaq4.webp",
+      "images": [
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/8/d/-original-imagqadpnygfnn2v.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/2/c/-original-imagqadpkcdtwzax.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/o/d/-original-imagqqgtnh5t4kj6.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/y/s/a/11-pro-5g-rmx3771-realme-original-imagq6asmurhcmu6.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/y/a/q/11-pro-5g-rmx3771-realme-original-imagq6asgkzms3fw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/q/h/-original-imagqadpr5efzqyd.jpeg?q=70"
+      ],
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "100MP (OIS) + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ]
     },
     {
-      "id": 4,
+      "id": "64c5dde60c06622dfd4f94d7",
       "title": "Mi tab S3",
-      "image":
-        "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935886/ecom/slider/mi-tab_s3wkhz.webp"
+      "price": 11999000,
+      "discountPrice": 13999000,
+      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935886/ecom/slider/mi-tab_s3wkhz.webp",
+      "images": [
+        "https://m.media-amazon.com/images/I/61w47n0-UnL._SY450_.jpg",
+        "https://m.media-amazon.com/images/I/51wMVRxiDpL._SY450_.jpg",
+        "https://m.media-amazon.com/images/I/81oz4DcvD4L._SY450_.jpg",
+        "https://m.media-amazon.com/images/I/717-z0kLtML._SY450_.jpg",
+        "https://m.media-amazon.com/images/I/7135E0xd7xL._SY450_.jpg",
+        "https://m.media-amazon.com/images/I/41S9sSUaDaL._SY450_.jpg"
+      ],
+      "highlights": [
+        "Snapdragon 870 Octa-Core Processor | Adreno 650 | Qualcomm AI engine | LPDDR5 RAM | UFS 3.1 | Up to 8GB RAM",
+        "144Hz 7-Stage Refresh Rate | 27.9cm(11) Display | 2.8K Resolution | 1 Billion Colors | 2880*1800 High Resolution",
+        "Quad Speakers with Dolby Atmos | Long Lasting 8840mAh Battery | Android 13 | MIUI 14 with Android & Security Updates",
+        "8MP Front Camera with Focus Frame | 13MP Rear Camera | Metal Unibody Design"
+      ]
     }
   ]
 }

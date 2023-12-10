@@ -20,8 +20,6 @@ const AppHeader = () => {
                         <Link href={"/blogs"} className='nav-link'>
                             Blogs
                         </Link>
-                    </Nav>
-                    <Nav className="me-auto">
                         <Link href={"/products"} className='nav-link'>
                             Products
                         </Link>
