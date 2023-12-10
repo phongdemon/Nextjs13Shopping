@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { Card, Container, Row, Col, Stack, Button, ListGroup } from 'react-bootstrap';
 import useSWR, { Fetcher } from 'swr';
 import { priceFormat } from '@/lib/utils';
-import ProductImgSlider from '@/components/product/ProductImgSlider';
+import ProductImgSlider from '@/components/product/productImgSlider';
+import { Contrail_One } from 'next/font/google';
 
 const ViewDetailProduct = ({ params }: { params: { id: string } }) => {
 
@@ -29,38 +30,17 @@ const ViewDetailProduct = ({ params }: { params: { id: string } }) => {
         <>
             {data && data.id && (
                 <>
-
-                    <div className="sm:flex block">
-                        <ProductImgSlider images={data.images} />
-                        <div className="flex-1 p-4">
-                            <h1 className="text-4xl ">{data.title}</h1>
-                        </div>
-                    </div>
-                    <Container>
-                        <Row className='my-3'>
-                            <Link href={"/products"}> Go Back</Link>
-                        </Row>
-
-                        <Row className='my-3'>
-                            <Col>
-                                <ProductImgSlider images={data.images} />
-                            </Col>
-                            <Col>
-                                <h1 className="text-4xl ">{data.title}</h1>
-                            </Col>
-                        </Row>
-                    </Container>
                     <Container >
                         <Row className='my-3'>
                             <Link href={"/products"}> Go Back</Link>
                         </Row>
                         <Row>
-                            <Col>
-                                <Card>
-                                    <Card.Img variant="top" src={data?.image} />
-                                </Card>
+                            <Col md={6}>
+                                <Container>
+                                    <ProductImgSlider images={data.images} />
+                                </Container>
                             </Col>
-                            <Col>
+                            <Col md={6}>
                                 <Card>
                                     <Card.Body>
                                         <Card.Title>
@@ -79,16 +59,17 @@ const ViewDetailProduct = ({ params }: { params: { id: string } }) => {
                                             Some quick example text to build on the card title and make up the
                                             bulk of the card's content.
                                         </Card.Text>
-                                        <ul className="">
-                                            <h2 className="text-xl pb-2">Highlights</h2>
-                                            {data && data.highlights?.map((highlight, index) => (
-                                                <li key={index} className="pb-1">
-                                                    <span className="inline-block w-1 h-1 bg-black rounded-full mr-2"></span>
-                                                    {highlight}
-                                                </li>
-                                            ))}
-                                        </ul>
-
+                                        {data && data.highlights && data.highlights.length > 0
+                                            && <ul className="">
+                                                <h2>Highlights</h2>
+                                                {data && data.highlights?.map((highlight, index) => (
+                                                    <li key={index} className="pb-1">
+                                                        <span className="inline-block w-1 h-1 bg-black rounded-full mr-2"></span>
+                                                        {highlight}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        }
                                         <Button variant="primary" className="my-2">Add to card</Button>{' '}
                                         <Button variant="secondary" className="my-2">Quay lại</Button>
                                     </Card.Body>
