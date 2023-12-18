@@ -37,7 +37,8 @@
       "title": "Mi TV",
       "price": 14999000,
       "discountPrice": 16999000,
-      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935898/ecom/slider/mi-tv_xzbqid.webp",
+      "discountPercentage": 10,
+      "thumbnail": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935898/ecom/slider/mi-tv_xzbqid.webp",
       "images": [
         "https://m.media-amazon.com/images/I/81EyqJpLLSL._SX679_.jpg",
         "https://m.media-amazon.com/images/I/71p0XOJ5k3L._SX679_.jpg",
@@ -58,7 +59,8 @@
       "title": "Realme Watch",
       "price": 4999000,
       "discountPrice": 5999000,
-      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935884/ecom/slider/realme-watch_vljtrt.webp",
+      "discountPercentage": 15,
+      "thumbnail": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935884/ecom/slider/realme-watch_vljtrt.webp",
       "images": [
         "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/c/q/1/-original-imaghrt5wrcbwqds.jpeg?q=70",
         "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/g/b/t/-original-imaghrt5qtgpbd62.jpeg?q=70",
@@ -82,7 +84,8 @@
       "title": "Realme 11 Pro",
       "price": 7999000,
       "discountPrice": 9999000,
-      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689936015/ecom/slider/realme-11-pro_s8oaq4.webp",
+      "discountPercentage": 20,
+      "thumbnail": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689936015/ecom/slider/realme-11-pro_s8oaq4.webp",
       "images": [
         "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/8/d/-original-imagqadpnygfnn2v.jpeg?q=70",
         "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/2/c/-original-imagqadpkcdtwzax.jpeg?q=70",
@@ -104,7 +107,8 @@
       "title": "Mi tab S3",
       "price": 11999000,
       "discountPrice": 13999000,
-      "image": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935886/ecom/slider/mi-tab_s3wkhz.webp",
+      "discountPercentage": 17,
+      "thumbnail": "https://res.cloudinary.com/dayo1mpv0/image/upload/v1689935886/ecom/slider/mi-tab_s3wkhz.webp",
       "images": [
         "https://m.media-amazon.com/images/I/61w47n0-UnL._SY450_.jpg",
         "https://m.media-amazon.com/images/I/51wMVRxiDpL._SY450_.jpg",

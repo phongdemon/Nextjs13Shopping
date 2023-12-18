@@ -1,9 +1,10 @@
 'use client'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Row, Col } from 'react-bootstrap';
 import useSWR from "swr";
 import Image from "next/image";
 import Link from "next/link";
+import Cards from "@/components/Cards";
+import { IProduct } from "@/lib/interface";
 
 const ProductsPage = () => {
 
@@ -25,29 +26,21 @@ const ProductsPage = () => {
     }
 
     return (
-        <Row className='mt-5'>
-            {data.map((item: IProduct) => (
-                <Col
-                    xs={12} md={4}
-                >
-                    <Link
-                        href={`/products/${item.id}`}
-                        className=" shadow-lg hover:shadow-xl"
-                        key={item.id}
-                    >
-                        <div className="">
-                            <Image
-                                src={item.image}
-                                width={400}
-                                height={400}
-                                alt={item.image}
-                                className="h-full w-full object-cover hover:scale-105 transition-transform"
-                            />
-                        </div>
-                    </Link>
-                </Col>
-            ))}
-        </Row>
+        <>
+            <div className="container text-center">
+                <div className="row">
+                    {data.length > 0 ? (
+                        data?.map((product: IProduct) => (
+                            <div className="col">
+                                <Cards product={product} key={product.id} />
+                            </div>
+                        ))
+                    ) : (
+                        <div>Sorry! There is no product related to your query.</div>
+                    )}
+                </div>
+            </div>
+        </>
     )
 }
 
