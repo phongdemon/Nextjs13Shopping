@@ -1,9 +1,11 @@
-'use client'
+"use client";
+
 import useSWR from "swr";
-import Cards from "@/components/Cards";
+import React from "react";
+import Cards from "../Cards";
 import { IProduct } from "@/lib/interface";
 
-const ProductsPage = () => {
+const ProductList = () => {
 
     const fetcher = (url: string) => fetch(url)
         .then((res) => res.json());
@@ -24,7 +26,7 @@ const ProductsPage = () => {
 
     return (
         <>
-            <div className="container text-center">
+            <div className="container text-center m-4">
                 <div className="row">
                     {data.length > 0 ? (
                         data?.map((product: IProduct) => (
@@ -38,7 +40,7 @@ const ProductsPage = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default ProductsPage;
+export default ProductList;

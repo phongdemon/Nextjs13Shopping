@@ -19,9 +19,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <AppHeader />
-        <Container style={{ minHeight: 'calc(100vh - 106px)' }}>
+
+        <div className="border">
           {children}
-        </Container>
+        </div>
 
         <AppFooter />
         <ToastContainer
